@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=none, initial-scale=1.0, maximum-scale=1.0 , minimum-scale-1.o">
+    <title>Dialog Axiata PLC | Sri Lanka's Leading Telecommunication Company</title>
+    <link rel="icon" href="https://s3.ap-southeast-1.amazonaws.com/dlg.dialog.lk/android-icon-72x72.ico" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+    <header>
+      
+        <input type="checkbox" id="check">
+        <div class="toggle_btn">
+          
+           <li><i class="fas fa-bars"></i>
+        
+        </div>
+        
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <a href="#" class="logo"><img src="images/logo.svg" alt=""></a>
+       
+        <ul class="navmenu">
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Television</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Business</a></li>
+        </ul>
+
+        
+        <div class="dropdown">
+            <button>English</button>
+            <div class="content">
+                <a href="">English</a>
+                <a href="">Sinhala</a>
+                <a href="">Tamil</a>
+            </div>
+        </div>
+        <div class="button-icon">
+          <a href="">
+              <a href="#">Reload & Pay</a>
+          </a>
+          </div>
+        
+        <div class="circle1">  
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+      </div>
+    
+      <div class="circle1">
+        
+        <a href="#"><i class="fas fa-user"></i></a>
+      </div>
+    
+      <div class="circle">
+        
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+
+      <div class="dropdown_menu">
+        <div class="menu-content">
+            <div class="logo"><img src="images/logo.svg" alt=""></div>
+            <ul class="languages">
+                <li><a href="#">English</a></li>
+                <li><a href="#">Sinhala</a></li>
+                <li><a href="#">Tamil</a></li>
+            </ul>
+        </div>
+        <ul class="menu-items">
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Home Broadband</a></li>
+            <li><a href="#">TELEVISION</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Useful Links</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+        <ul class="icon-menu">
+            <li><a href="#"><a href="#" ><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="#"><i class="fas fa-user"></i></a></li>
+            <li><a href="#"><i class="fas fa-search"></i></a></li>
+        </ul>
+    </div>
+        
+    </header>
+    
+  
+
+    <script>
+      const toggleBtnIcon = document.querySelector('.toggle_btn i');
+      const dropDownMenu = document.querySelector('.dropdown_menu');
+      
+
+  
+      toggleBtnIcon.addEventListener('click', function() {
+          dropDownMenu.classList.toggle('open')
+          const isOpen = dropDownMenu.classList.contains('open')
+
+          toggleBtnIcon.classList = isOpen
+              ? 'fas fa-xmark'
+              : 'fas fa-bars'
+      });
+
+
+  </script>
+  
+    <!--Headr part End-->
+<body>
+    <!--Home section start-->
+    <section class="main-home">
+        
+        <div class="main-text">
+            <h3><b>Win Supermarket vouchers worth Rs. 25,000/-</b></h3>
+            <h6>Pay your Bills or Reload your Dialog connection using Mastercard through the MyDialog App or Dialog.lk</h6>
+
+            <a href="#" class="main-btn"><b>Pay Now</b></a>
+        </div>
+
+      </section> 
+      <section class="container_billcard"> 
+        <div class="container">
+            <div class="row">
+                <div class="card-01">
+                    <h6>Paybill & Reload</h6>
+                    <label>
+                        <input type="text" placeholder="Enter connection number">
+                        <button type="submit">Go</button>
+                    </label>
+                </div>
+                <div class="card-02">
+                    <button class="square3" style="background-color: azure;">
+                        <img src="images/home.svg">
+                        <p>Buy Home <br> Broadband</p>
+                    </button>
+                </div>
+                <div class="card-03">
+                    <button class="square3" style="background-color: azure;">
+                        <img src="images/sim.svg">
+                        <p>Buy SIM</p>
+                    </button>
+                </div>
+                <div class="card-04">
+                    <button class="square3" style="background-color: azure;">
+                        <img src="images/dialog.svg">
+                        <p>Buy Dialog TV</p>
+                    </button>
+                </div>
+                <div class="card-05">
+                    <button class="square3" style="background-color: azure;">
+                        <img src="images/viu.svg">
+                        <p>Viu Mini</p>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+     
+        </section>
+
+  <section class="flex">
+    <div class="flex-container">
+        <div class="flex-box flex-box-1">
+            <img src="images/Router.png" alt="router">
+            <h6>Home Broadband</h6>
+        </div>
+        <div class="flex-box flex-box-2">
+            <img src="images/TV.png" alt="tv">
+            <h6>Dialog TV</h6>
+        </div>
+        <div class="flex-box flex-box-3">
+            <img src="images/Mobile_0 (3).png" alt="mobile">
+            <h6>Mobile</h6>
+        </div>
+        <div class="flex-box flex-box-4">
+            <img src="images/Tablet.png" alt="tablet">
+            <h6>Shop</h6>
+        </div>
+        <div class="flex-box flex-box-5">
+            <img src="images/smarthome.png" alt="smartphone">
+            <h6>Smarthome</h6>
+        </div>
+    </div>
+  </section>
+
+  <div class="field_item">
+    <div class="section_new_arrival">
+        <div class="field_item_section">
+            <div class="container_fluid">
+                <div class="view_title">
+                    New arrivals
+                </div>
+
+                <div class="container">
+                    <div class="view_header">
+                        Latest cutting-edge technology
+                    </div>
+                   <div id="list_view_grid" class="view_content row" role="region" aria-roledescription="carousel">
+                    <div class="slick_list draggable">
+                        <div class="slick_track" style="opacity: 1; width: 1208px; transform: translate3d((0px,0px,0px));">
+                            <div class="views-row slick-slide slick-current slick-active" style="width: 282px;" data-slick-index="0" role="group" aria-roledescription="slide">
+
+                                <article class="commerce-product--phones commerce-product--catalog">
+                                    <div class="no-promotions-block"></div>
+                                    <div class="product-catalog">
+                                        <div class="field field--name-title field--type-string field--label-hidden field--item">Honor X7b 4G 8GB</div>
+                                  
+                                  <div class="product--variation-field--variation_field_images__376 field field--name-field-images field--type-image field--label-hidden field--items">
+                                          <div class="field--item">  <img loading="lazy" src="https://s3.ap-southeast-1.amazonaws.com/dlg.dialog.lk/s3fs-public/styles/product_thumbnail/public/2024-03/honor-x7b-4g-8gb-256gb-black-1.jpg" width="75" height="100" alt="Honor X7b 4G 8GB 256GB Black" typeof="foaf:Image" class="image-style-product-thumbnail" data-uw-rm-alt-original="Honor X7b 4G 8GB 256GB Black" data-uw-rm-alt="ALT">
+                                          </div>
+                                  </div>
+                              
+                                  <div class="product--variation-field--variation_price__376 field field--name-price field--type-commerce-price field--label-hidden field--item">Rs. 67,999.00</div>
+                                              <div class="list-price">&nbsp;</div>
+                                    <div class="buy-now-button">
+                                        <a href="/phones/honor-x7b-4g-8gb" class="commerce-product--catalog__hover-text" tabindex="0" data-uw-rm-brl="PR" data-uw-original-href="https://www.dialog.lk/phones/honor-x7b-4g-8gb">View</a>
+                                    </div>
+                                  </div>
+                              </article>
+                            
+                            </div>
+                              <div class="views-row slick-slide" style="width: 282px;" data-slick-index="1" aria-hidden="true" tabindex="-1" role="group" aria-roledescription="slide">
+
+                                 <article class="commerce-product--phones commerce-product--catalog">
+                                      <div class="no-promotions-block"></div>
+                                    <div class="product-catalog">
+                                            <div class="field field--name-title field--type-string field--label-hidden field--item">Motorola Moto G32 8GB</div>
+                                      
+                                      <div class="product--variation-field--variation_field_images__368 field field--name-field-images field--type-image field--label-hidden field--items">
+                                              <div class="field--item">  <img loading="lazy" src="https://s3.ap-southeast-1.amazonaws.com/dlg.dialog.lk/s3fs-public/styles/product_thumbnail/public/2024-03/motorola-moto-g32-8gb-1.jpg" width="75" height="100" alt="Motorola Moto G32 8GB 128GB Black" typeof="foaf:Image" class="image-style-product-thumbnail" data-uw-rm-alt-original="Motorola Moto G32 8GB 128GB Black" data-uw-rm-alt="ALT">
+                                              </div>
+                                      </div>
+                                  
+                                      <div class="product--variation-field--variation_price__368 field field--name-price field--type-commerce-price field--label-hidden field--item">Rs. 68,500.00</div>
+                                                  <div class="list-price">&nbsp;</div>
+                                      <div class="buy-now-button">
+                                          <a href="/phones/motorola-moto-g32-8gb" class="commerce-product--catalog__hover-text" tabindex="-1" data-uw-rm-brl="PR" data-uw-original-href="https://www.dialog.lk/phones/motorola-moto-g32-8gb">View</a>
+                                      </div>
+                                    </div>
+                                </article>
+                             </div>
+                                
+                            <div class="views-row slick-slide" style="width: 282px;" data-slick-index="2" aria-hidden="true" tabindex="-1" role="group" aria-roledescription="slide">
+
+                                     <article class="commerce-product--phones commerce-product--catalog">
+                                          <div class="no-promotions-block"></div>
+                                        <div class="product-catalog">
+                                                <div class="field field--name-title field--type-string field--label-hidden field--item">Samsung Galaxy S24 Plus 12GB</div>
+                                          
+                                          <div class="product--variation-field--variation_field_images__341 field field--name-field-images field--type-image field--label-hidden field--items">
+                                                  <div class="field--item">  <img loading="lazy" src="https://s3.ap-southeast-1.amazonaws.com/dlg.dialog.lk/s3fs-public/styles/product_thumbnail/public/2024-01/samsung-galaxy-s24-plus-12gb-onyx-black-1.jpg" width="75" height="100" alt="Samsung Galaxy S24 Plus 12GB Onyx Black" typeof="foaf:Image" class="image-style-product-thumbnail" data-uw-rm-alt-original="Samsung Galaxy S24 Plus 12GB Onyx Black" data-uw-rm-alt="ALT">
+                                                  </div>
+                                          </div>
+                                      
+                                          <div class="product--variation-field--variation_price__341 field field--name-price field--type-commerce-price field--label-hidden field--item">Rs. 455,361.00</div>
+                                                      <div class="list-price">&nbsp;</div>
+                                          <div class="buy-now-button">
+                                          <a href="/phones/samsung-galaxy-s24-plus-12gb" class="commerce-product--catalog__hover-text" tabindex="-1" data-uw-rm-brl="PR" data-uw-original-href="https://www.dialog.lk/phones/samsung-galaxy-s24-plus-12gb">View</a>
+                                          </div>
+                                       </div>
+                                    </article>
+                            </div>
+                                    
+                            <div class="views-row slick-slide" style="width: 282px;" data-slick-index="3" aria-hidden="true" tabindex="-1" role="group" aria-roledescription="slide">
+
+                                     <article class="commerce-product--phones commerce-product--catalog">
+                                              <div class="no-promotions-block"></div>
+                                            <div class="product-catalog">
+                                                    <div class="field field--name-title field--type-string field--label-hidden field--item">iPhone 15 Pro Max</div>
+                                              
+                                            <div class="product--variation-field--variation_field_images__304 field field--name-field-images field--type-image field--label-hidden field--items">
+                                                      <div class="field--item">  <img loading="lazy" src="https://s3.ap-southeast-1.amazonaws.com/dlg.dialog.lk/s3fs-public/styles/product_thumbnail/public/2023-10/iphone-15-pro-max-black-titanium.jpg" width="75" height="100" alt="iPhone 15 Pro Max" typeof="foaf:Image" class="image-style-product-thumbnail" data-uw-rm-alt-original="iPhone 15 Pro Max" data-uw-rm-alt="ALT">
+                                                      </div>
+                                            </div>
+                                          
+                                            <div class="product--variation-field--variation_price__304 field field--name-price field--type-commerce-price field--label-hidden field--item">Rs. 635,990.00</div>
+                                                          <div class="list-price">&nbsp;</div>
+                                                <div class="buy-now-button">
+                                                    <a href="/phones/iphone-15-pro-max" class="commerce-product--catalog__hover-text" tabindex="-1" data-uw-rm-brl="PR" data-uw-original-href="https://www.dialog.lk/phones/iphone-15-pro-max">View</a>
+                                                </div>
+                                            </div>
+                                    </article>
+                              </div>
+              </div>
+          </div>            
+      </div>            
+  </div>              
+
+ <div class="field--item">
+	<div class="paragraph paragraph-rich-text paragraph--type--rich-text paragraph--view-mode--default">
+					<style type="text/css">.mobile-broadband-section.bg-light {
+    background-color: #f8f9fb !important;
+  }
+
+  @media (max-width: 768px) {
+    .mobile-broadband-section .card-body > iframe.youtube-video {
+      height: 300px;
+    }
+  }
+
+  .our-contribution-to-the-society .slick-slide {
+    max-width: 400px !important;
+  }
+
+  .our-contribution-to-the-society .card-wrapper .card-content-section {
+    background: rgba(0, 0, 0, 0.15) !important;
+  }
+
+  .our-contribution-to-the-society
+    .card-wrapper
+    .card-content-section
+    .text-height {
+    line-height: 1.5 !important;
+  }
+
+  .our-contribution-to-the-society a.btn.btn-link {
+    color: white !important;
+  }
+
+  .our-contribution-to-the-society a.btn.btn-link:hover {
+    color: white !important;
+    text-decoration: underline;
+    background-color: transparent !important;
+  }
+</style>
+
+
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+ 
+  <div class="section-video" >
+   
+     <div class="video_section">
+      <div class="mobile-broadband-section">
+        <div class="row">
+          <div class="col-12 pb-4">
+            <div class="card_text-center_border">
+              <div class="card-body p-0">
+                <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" width="1000"
+                height="560" src="https://www.youtube.com/embed/TgINjf_jdo0?rel=0&amp;loop=1&amp;playlist=TgINjf_jdo0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.dialog.lk" title="Dialog Fun Blaster | Rs.547 Plan | Get Unlimited Facebook, WhatsApp &amp; YouTube" width="500" data-gtm-yt-inspected-582950_117="true" id="128952584" data-gtm-yt-inspected-10="true">
+                  
+                </iframe>
+              </div>
+           
+          </div>
+        </div>
+      </div>
+     </div>
+     
+     
+     
+      
+      
+      
+  </div>
+</div> 
+
+<div class="container_card">
+  <div class="card">
+    <div class="card-content">
+      <h1><b>South Asia's First</b></h1>
+    </div>
+    <img src="images/5g-logo.png" alt="logo">
+    <h1><b>Trial Netwaork</b></h1>
+    <p>Now in More Locations</p>
+    <a href="" class="card-button">Learn More</a>
+    <img src="images/dialog5g-trial-network.jpg" alt="dialog5g-trial-network" srcset="">
+  </div>
+
+  <div class="card_1">
+    
+    <img src="images/fun-blaster-logo.jpg" alt="logo">
+    <p>The Best Data Plans to enjoy a worry free social media experience</p>
+    <a href="" class="card-button">Learn More</a>
+    <img src="images/fun-blaster-banner.jpg" srcset="">
+  </div>
+
+</div>
+
+<div class="container_banner">
+  <div class="row">
+    <div class="col_1">
+      <img src="images/smarthome-app-banner-img-web (1).png" alt="smartbanner">
+    </div>
+    <div class="col-2">
+      <img src="images/smart-home-app-logo.png" alt="smarthomeapp">
+    </div>
+    <div class="col_3">
+      <h3>ONE APP to Control all<br> your Smart Devices</h3>
+      
+      <button>GET APP</button>
+    </div>
+    
+    
+  </div>
+  
+</div>
+  
+<div class="container_card1">
+  <div class="section">
+    <h1>True to our vision of "Empowering & Enriching <br>Sri Lankan Lives"</h1>
+    <p>Dialog is working in your communities,supporting Sri Lankans in all their endeavours</p>
+  </div>
+</div>
+   
+  <div class="container_box">
+    
+    <div class="card__1">
+      <div class="content">
+        <p>New digital possibilities for marginlised communities</p>
+      </div>
+      <a href="#"><button>LEARN MORE ></button></a>
+    </div>
+    
+    <div class="card__2">
+      <div class="content">
+        <p>Connecting women with professional<br> support</p>
+      </div>
+      <a href="#"><button>LEARN MORE ></button></a>
+    </div>
+
+    <div class="card__3">
+      <div class="content">
+        <p>Investing in the top young minds</p>
+      </div>
+      <a href="#"><button>LEARN MORE ></button></a>
+    </div>
+    <div class="view_button">
+      <button>View more</button>
+    </div>
+  </div>
+
+  <section>
+    <div class="testimonals-summary">
+      <div class="para-block">
+        <div class="container">
+          <div class="text-center">
+            <h3>What our customer say...</h3>
+            <h5>Here's what our cutomer say about the service we provide them</h5>
+          </div>
+          
+          <div class="container_card">
+           
+              <div class="card1">
+                <div class="rectangle6-container">
+                  <div class="part1">
+                    <div class="img-side">
+                      <img src="images/male_7_0.png" alt="image-man">
+                    </div>
+
+                    <div class="text-side">
+                      <div class="text_1">MR.M SAAJIDH</div>
+                      <div class="text_2">Colombo</div>
+                    </div>
+                   
+                    </div>
+                   
+                </div>
+                <div class="text_3">
+                  <p>Attending the coustomer,treating the customer.<br>
+                  Everything was perfrct.Not a single minue was wasted</p>
+                </div>
+              </div>
+
+              <div class="card2">
+                <div class="rectangle6-container">
+                  <div class="part1">
+                    <div class="img-side">
+                      <img src="images/male_7_0.png" alt="image-man">
+                    </div>
+  
+                    <div class="text-side">
+                      <div class="text_1">MR.M SAAJIDH</div>
+                      <div class="text_2">Colombo</div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="text_3">
+                  <p>"As a senior citizen I felt very comfortable the way Agent attended to my matter. It is good to see , experince and feel that still we have caring youngers<br> in our society. "</p>
+                </div>
+              </div>
+
+              <div class="view_button">
+                <button>View more</button>
+              </div>
+
+          </div>
+           
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="upfin">
+      <h1 style="font-size: 50px;">DialogNews and Announcements</h1>
+      
+      <div class="containeroo">
+        <div class="squareoo">
+          <img src="images/sustainability-reporting-awards-2024.jpg" alt="Image 1">
+          <div class="text">Genius buissness powered by dialog finance unevils cutting edge</div>
+        </div>
+        
+        <div class="squareoo">
+          <img src="images/genie-and-dialog-finance-recognised-at-the-lankapay-technnovation-awards-2024.jpg" alt="Image 2">
+          <div class="text">Dialog recognized for excellence in sustanability</div>
+        </div>
+        
+        <div class="squareoo">
+          <img src="images/dialog-powers-presidents-gold-cup-volleyball-thumb.jpg" alt="Image 3">
+          <div class="text">Dialog Powers Presidents gold cup volley ball</div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+  <section>
+    <div class="container_card2">
+      <div class="section">
+        <h1>Our solutions to improve your lifestyle</h1>
+        <p>Stay one step ahead every day with our digital solutions</p>
+      </div>
+
+      <div class="flex-container_1">
+        <div class="flex-box1 flex-box-1">
+            <img src="images/genie-logo-new.png" alt="router">
+            <h6>Genie</h6>
+        </div>
+        <div class="flex-box1 flex-box-2">
+            <img src="images/ez-cash.png" alt="tv">
+            <h6>eZ Cash</h6>
+        </div>
+        <div class="flex-box1 flex-box-3">
+            <img src="images/doc990.png" alt="mobile">
+            <h6>Doc990</h6>
+        </div>
+        <div class="flex-box1 flex-box-4">
+            <img src="images/lesipay.png" alt="tablet">
+            <h6>Lesi Pay</h6>
+        </div>
+        <div class="flex-box1 flex-box-5">
+            <img src="images/dialog-finance.png" alt="smartphone">
+            <h6>Dialog Finance</h6>
+        </div>
+        <div class="flex-box1 flex-box-5">
+          <img src="images/download.png" alt="smartphone">
+          <h6>ideamart</h6>
+      </div>
+    </div>
+    
+    </div>
+    <div class="view_button">
+      <button>View more</button>
+    </div>
+  </section>
+
+
+<div class="footer1">
+    <div class="footer_info">
+      <div class="row">
+          <div class="footer-col">
+            <h4>Explore and Shop</h4>
+              <ul>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Mobile Broadband</a></li>
+                <li><a href="#">Home Broadband</a></li>
+                <li><a href="#">Television</a></li>
+                <li><a href="#">International Roaming</a></li>
+              </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Our Company</h4>
+              <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Core Principles</li></li>
+                <li><a href="#">Dialog Foundation</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Legal</h4>
+              <ul>
+                <li><a href="#">ABAC Policy</a></li>
+                <li><a href="#">Legal Resources</a></li>
+                <li><a href="#">Product and Services T&C</a></li>
+                <li>
+              </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Support</h4>
+              <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Coverage Map</a></li>
+                <li><a href="#">Store Locator</a></li>
+                <li><a href="#">Self-Help Channels</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<div class="footer2">
+  <div class="footer_info1">
+    <div class="row">
+        <div class="footer-col2">
+            <div class="social-link">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>  
+        </div>
+
+        <div class="footer-col2">
+          <div class="email"><h4>Email: service@dialog.lk</h4></div>    
+        </div>
+
+        <div class="footer-col2">
+          <div class="hotline">
+            <h4>Hotline:1777</h4>
+          </div>  
+        </div>
+
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center container-fluid">
+      <div class="content">
+            <div class="label-hidden field--item">
+              
+              <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="c6052eac-bc2d-493e-b753-6ca362e4003a-test"></script> 
+              <script type="text/javascript"> function OptanonWrapper() { } </script>
+            </div>
+      
+      </div>
+  </div>
+  <div class="copyrights">
+    © Dialog Axiata PLC. All Rights Reserved
+</div>
+<div class="policy">
+<div><a href="" style="color: blue;">Privacy Notice</a></div>
+        <div>|</div>
+<div><a href="" style="color: blue;">Terms & Conditions</a></div>
+        <div>|</div>
+<div><a href="" style="color: blue;">Sitemap</a></div>
+</div>
+
+    
+</body>
+</html>
+
+
